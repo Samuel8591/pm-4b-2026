@@ -5,20 +5,20 @@ body:
 
 
 - type: input
-    id: contact
-      label: Contact Details
-      description: Was ist ihr Problem?
-      placeholder: Hilfe
-      required: false
+  id: contact
+  label: Contact Details
+  description: Was ist ihr Problem?
+  placeholder: Hilfe
+  required: false
 
 
 - type: dropdown
-    id: version
-      label: Version
-      description: Hast du gut geschlafen
-      options:
+  id: version
+  label: Version
+  description: Hast du gut geschlafen
+  options:
         - Ja
         - Nein
-      default: 0
-    validations:
-      required: true
+  default: 0
+  validations:
+  required: true
